@@ -1,10 +1,11 @@
 using System;
+using Foundation2;
 
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Foundation2 World!");
+       // Console.WriteLine("Hello Foundation2 World!");
 
       
         var product1 = new Product("Phone", "P001", 500m, 2);

@@ -31,12 +31,12 @@ class Program
         
 
         {
-            Console.WriteLine($"Title: {Video.Title}");
-            Console.WriteLine($"Author: {Video.Author}");
-            Console.WriteLine($"Length: {Video.Length}");
-            Console.WriteLine($"Comments: {Video.GetCommentCount()}");
+            Console.WriteLine($"Title: {video1.Title}");
+            Console.WriteLine($"Author: {video1.Author}");
+            Console.WriteLine($"Length: {video1.Length}");
+            Console.WriteLine($"Comments: {video1.GetCommentCount()}");
             Console.WriteLine("Comments:");
-            Video.DisplayComments();
+            video1.DisplayComments();
             Console.WriteLine(new string('-', 30));
         }
     
