@@ -8,7 +8,6 @@ class Program
         Console.WriteLine("Hello Learning05 World!");
 
         Assigment project=new Assigment("Samuel Benett "," Mutiplication");
-        Console.WriteLine("Project Summary:");
         string summary=project.GetSummary();
         Console.WriteLine(summary);
         Console.Read();
