@@ -4,10 +4,10 @@ namespace Develop03;
 
 public class Reference
 {
-   public string Book { get; set; }
-    public int Chapter { get; set; }
-    public int Verse { get; set; }
-    public int EndVerse { get; set; }
+   private string Book { get; set; }
+    private int Chapter { get; set; }
+    private int Verse { get; set; }
+    private int EndVerse { get; set; }
 
     public Reference(string book, int chapter, int verse)
     {

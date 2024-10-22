@@ -5,8 +5,8 @@ namespace Develop03;
 public class Scripture
 {
 
-   public Reference Reference { get; set; }
-    public List<Wordz> Words { get; set; }
+   private Reference Reference { get; set; }
+   private List<Wordz> Words { get; set; }
 
     public Scripture(Reference reference, string text)
     {

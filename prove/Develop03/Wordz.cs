@@ -4,8 +4,8 @@ namespace Develop03;
 
 public class Wordz
 {
-    public string Text { get; set; }
-    public bool IsHidden { get; set; }
+    private string Text { get; set; }
+    private bool IsHidden { get; set; }
 
     public Wordz(string text)
     {
