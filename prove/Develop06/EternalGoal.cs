@@ -2,10 +2,10 @@ using System;
 
 namespace Develop06;
 
-public class ExternalGoal:Goal
+public class EternalGoal:Goal
 { 
     private int EventCount;
-  public ExternalGoal(string name, string description, int points)
+  public EternalGoal(string name, string description, int points)
   :base(name,description,points)
     {
         //Name = name;
@@ -15,7 +15,7 @@ public class ExternalGoal:Goal
 
     public override void RecordEvent()
     {
-        // Award recurring points each time the event is recorded
+        
         Console.WriteLine($"Eternal goal '{Name}' event recorded. Awarding {Points} points.");
 
         

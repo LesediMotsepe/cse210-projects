@@ -5,7 +5,7 @@ namespace Develop06;
 public class GoalManager
 {
     public List<Goal> _goals;
-    private int _score;
+    public int _score;
 
     public GoalManager()
     {
@@ -75,7 +75,7 @@ public class GoalManager
                 goal = new SimpleGoal(name, description, points);
                 break;
             case 2:
-                goal = new ExternalGoal(name, description, points);
+                goal = new EternalGoal(name, description, points);
                 break;
             case 3:
                 Console.Write("Enter target count: ");
@@ -113,7 +113,7 @@ public class GoalManager
         {
             _score += simpleGoal.Points;
         }
-        else if (selectedGoal is ExternalGoal eternalGoal)
+        else if (selectedGoal is EternalGoal eternalGoal)
         {
             _score += eternalGoal.Points; 
         }
